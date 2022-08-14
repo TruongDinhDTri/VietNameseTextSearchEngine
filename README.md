@@ -12,9 +12,9 @@
 
 
 ## Project Info:
-  * ***Project Name:*** Vietnamese Text Search Engine
-  * ***Tools:***  **Streamlit** , **Google Colab**
-  * ***Brief introduction:***  **In this project we're trying to implement the VSM(Vector Space Model) on Vietnamese Documents and try to make a simple Search Engine . We faced some difficulties while tokenized vietnamese words due to the complexity of vietnamese grammar and the abundance of meaning in vietnamese. We made the extra part about Query Expandsion but the result was not so good. MORE DETAILS IN THE REPORT. Hope you guys like it**
+  * ***Project Name:***  **Vietnamese Text Search Engine**
+  * ***Tools:***  Streamlit** , **Google Colab
+  * ***Brief introduction:***  ***In this project we're trying to implement the VSM(Vector Space Model) on Vietnamese Documents and try to make a simple Search Engine . We faced some difficulties while tokenized vietnamese words due to the complexity of vietnamese grammar and the abundance of meaning in vietnamese. We made the extra part about Query Expandsion but the result was not so good. MORE DETAILS IN THE REPORT. Hope you guys like it***
 
 Here is the link to our app: [VietNameseTextSearchEngine](https://share.streamlit.io/dxmai/ir/main)
 
