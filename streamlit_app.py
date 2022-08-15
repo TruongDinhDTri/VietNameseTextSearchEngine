@@ -43,7 +43,7 @@ if flag:
     end_time = time.time()
     st.write(":stopwatch: Top 20 kết quả trả về trong ", round(end_time - start_time, 4), "s")
     pos = 0
-    index = 0
+    index = "a"
     for item in result.items():
         with st.container():
             title = f"### :page_facing_up: Tên tập tin: {item[0]}"
@@ -51,7 +51,7 @@ if flag:
             text = item[1].decode('utf-16')
             content_to_expand.append(Clean_Data(text))
             st.text_area('', text, height=444, key=index)
-            index += 1
+            index += "2"
 
     with st.sidebar.expander("Kết quả đánh giá mô hình"):
         st.write(":pushpin: Mô hình được đánh giá dựa trên độ đo Precision")
@@ -61,12 +61,3 @@ if flag:
 
     if user_input not in st.session_state:
         st.session_state[user_input] = content_to_expand
-
-
-
-
-
-
-
-
-
